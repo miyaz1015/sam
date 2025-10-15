@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>タイトル</title>
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+
+<!--jQuery本体-->
+<script src="js/jquery-1.11.2.min.js"></script>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="box">
+        <a href="img/flower01_big.jpg" data-lightbox="roadtrip">
+        <img src="img/flower01_small.jpg"  data-lightbox="roadtrip" alt=""></a>
+    
+    </div>
+
+  
+    </div>
+
+<!--モーダルウィンドウ-->
+<link href="js/lightbox2-dev/lightbox2-dev/dist/css/lightbox.css" rel="stylesheet">
+<script src="js/lightbox2-dev/lightbox2-dev/dist/js/lightbox.min.js"></script>
+
+<!--ドロワー-->
+<link href="js/drawer-master/drawer-master/dist/css/drawer.css" rel="stylesheet">
+<script src="js/drawer-master/drawer-master/dist/js/drawer.min.js"></script>
+
+<!--アイスクロール-->
+<script src="js/iscroll-master/iscroll-master/build/iscroll.js"></script>
+
+
+
+<!--ready関数-->
+<script>
+    $(document).ready(function() {
+  $('.drawer').drawer();
+});
+</script>
+
+<body class="drawer drawer--right">
+  <header role="banner">
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li><a class="drawer-brand" href="#">Brand</a></li>
+        <li><a class="drawer-menu-item" href="#">Nav1</a></li>
+        <li><a class="drawer-menu-item" href="#">Nav2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main">
+    <!-- Page content -->
+  </main>
+</body>
+
+</body>
+
+
+</html>
